@@ -10,6 +10,9 @@ both `antelope` and `antelopes`.)
     antelope rocks out
     antelopes rock out
 
+```
+antelopes?rocks?out
+```
 * Regex that matches either of:
 
     goat
@@ -18,6 +21,10 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+```
+[^b]oat
+```
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -28,6 +35,9 @@ both `antelope` and `antelopes`.)
   1999-01-20
   812-2-10
 
+```
+\d?\d?\d?\d\-\d?\d\-\d?\d
+```
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
