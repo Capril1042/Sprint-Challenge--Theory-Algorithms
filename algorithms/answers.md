@@ -1,12 +1,12 @@
  # Answers for Analysis of Algorithms
 
  ## Exercise I-Answers
- a) O(n)- Linear Time - number of steps is directly related to n, because even though we are steping through this while a< n*n*n times- each time we make  a step we change a  to a + n*n.
- b) O(log(n))- Logarithmic Time- the number of steps decrease with each step taken, because each step we divide i by 2.
- c) O(sqrt(n))- Square Root Time - the number of steps related to square root of n
- d) O(nlogn)- Quasilinear Time
- e) O(n^3)- Cubic Time
- f) O(n)- Linear Time - number of steps is directly related to n
+ a) O(n)- Linear Time - number of steps is directly related to n, because even though we are steping through this while a < n*n*n times- each time we make  a step we change a  to a + n*n.
+ b) O(log(n))- Logarithmic Time- the number of steps decreases with each step taken, because each step we divide i by 2.
+ c) O(sqrt(n))- Square Root Time - the number of steps  is related to square root of n, because we step thorugh it Math.sqrt(n)/2 times and then
+ d) O(nlogn)- Quasilinear Time - Outer loop is O(log(n)) and inner loop is O(n).
+ e) O(n^3)- Cubic Time - Three linear O(n) loops one constant O(1) loop.
+ f) O(n)- Linear Time - number of steps is directly related to n 
  g) O(n)- Linear Time - number of steps is directly related to n
 
  ## Exercise II- Answers
