@@ -11,8 +11,22 @@
 
  ## Exercise II- Answers
  a)
+ ```
+function maxDifference(arr) {
+let temp = 0;
+let max = 0;
+n = arr.length;
+for(let i = 0;i < n-1; i++) {
+  let j = i+1;
+  temp = arr[j]-arr[i];
+  if (temp > max) {
+    max = temp;
+    } 
+  } return max;
+}
+```
  b) My strategy to determine the value of `f` would be to drop my first egg from floor `n/2` - the middle floor i'd call this floor `m'. If the egg did not break I would then drop the egg from floor `(n/4)+m`- the middle of the top half of floors. If the egg still didn't break I would contine in this pattern- finding the halfway point betwene the last floor the egg was dropped and n. Once the egg did break I would calculate the halfway-point betwen the last non-breaking point and the newly found upper breaking point point `bp'. I would then drop the egg at the new halfway point and continue in the same fashion.
- If the egg had broken on my first drop I would take the smae stratgey except I would be taking the halfway point betwen the bott0m floor and the floor the the egg first broke on.
+ If the egg had broken on my first drop I would take the same stratgey except I would be taking the halfway point betwen the bottom floor and the floor the the egg first broke on.
 
  ## Exercise III- Answers 
  a) If the array is already sorted, and the pivot chosen is the first element of the array; the running time of this algorithm would be (On^2).
