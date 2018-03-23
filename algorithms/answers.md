@@ -30,4 +30,4 @@ for(let i = 0;i < n-1; i++) {
 
  ## Exercise III- Answers 
  a) If the array is already sorted, and the pivot chosen is the first element of the array; the running time of this algorithm would be (On^2).
- b) If the pivot was magically the median element then the running time of the algorthm would be O(n).
+ b) If the pivot was magically the median element then the running time of the algorthm would be O(nlogn).
