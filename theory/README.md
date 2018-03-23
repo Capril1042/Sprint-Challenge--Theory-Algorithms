@@ -11,7 +11,7 @@ both `antelope` and `antelopes`.)
     antelopes rock out
 
 ```
-antelopes?rocks?out
+antelopes? rocks? out
 ```
 * Regex that matches either of:
 
@@ -24,6 +24,11 @@ antelopes?rocks?out
 
 ```
 [^b]oat
+```
+or 
+
+```
+[gm]oat
 ```
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
